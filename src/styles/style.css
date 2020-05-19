@@ -106,10 +106,16 @@ body {
 }
 
 #user {
+  text-align: right;
   position: absolute;
-  top: 0;
+  top: 5px;
   right: 0;
   margin: 20px;
+}
+
+#user a {
+  color: white;
+  text-decoration: none;
 }
 
 #user p {
@@ -157,12 +163,18 @@ body {
 }
 
 #title {
+
   background: url(../images/title-bg.png) #45f left top repeat-x;
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   background: url(../images/logo.png) left top no-repeat;
+
 }
 
 #main h2 {
@@ -177,6 +189,10 @@ h1 {
   background: #293499;
   color: white;
   border-color: white;
+}
+
+#sections li a:active {
+  background: #d00;
 }
 
 #sections li a:hover {
