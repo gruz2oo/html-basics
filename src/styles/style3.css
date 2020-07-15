@@ -1,0 +1,71 @@
+/* Geometry */
+
+html {
+   height: 100%;
+}
+
+body {
+   padding: 0px;
+   margin: 0px 50px;
+   position: absolute;
+   min-height: 100%;
+   z-index: 0;
+}
+
+#body2 {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+}
+
+#oll {
+   display: grid;
+}
+
+#logo {
+   background-image: url(/images/title-bg.png);
+   background-position: left top;
+   background-repeat: repeat-x;
+   background-color: #45f;
+   display: grid;
+   grid-template-columns: 60px 2fr 190px;
+   grid-template-rows: 70px;
+   justify-items: start;
+   align-items: center;
+}
+#logo .img img {
+   align-self: start;
+}
+.user {
+   display: grid;
+   justify-items: end;
+   align-items: center;
+}
+
+h1 {
+   margin: 0px;
+   font-size: 180%;
+   letter-spacing: 1px;
+   color: white;
+
+}
+
+.img {
+   display: grid;
+   align-items: start;
+   justify-items: start;
+}
+
+
+.user p {
+   margin: 0px;
+   white-space: nowrap;
+   color: white;
+}
+
+.user a,
+#logo a {
+   text-decoration: none;
+   color: white;
+}
