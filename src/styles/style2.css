@@ -1,0 +1,155 @@
+/* Geometry */
+* {
+   box-sizing: border-box;
+}
+
+html {
+   height: 100%;
+}
+
+body {
+   padding: 0px;
+   margin: 0px 50px;
+   position: absolute;
+   min-height: 100%;
+   z-index: 0;
+}
+
+#body2 {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+}
+
+
+
+#hed {
+   display: flex;
+}
+
+
+
+
+#ligo1 {
+   flex-grow: 1;
+}
+
+#logo2 {
+   flex-grow: 40;
+
+}
+
+#user {
+   flex-grow: 1;
+
+}
+
+
+#content {
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+#main {
+   flex: 50%;
+   flex-grow: 2;
+   order: 2;
+}
+
+#section {
+   flex-grow: 1;
+   order: 1;
+}
+
+#news {
+   flex: 10%;
+   flex-grow: 1;
+   order: 3;
+}
+
+#news h2 {
+   padding: 16.6px;
+   margin: 0px;
+}
+
+#oll {
+   min-height: 100%;
+}
+
+/*color*/
+
+
+
+#hed {
+   background: url(/images/title-bg.png) #45f left top repeat-x;
+   color: white;
+}
+
+#news h2 {
+   margin: 0px 0px 20px 0px;
+   padding: 10px;
+   background: url(/images/news-head-bg.png) #dde6ff left top repeat-x;
+}
+
+#sections li a {
+   background: #293499;
+   color: white;
+   border-color: white;
+
+}
+
+#main .picture {
+   float: left;
+}
+
+#sections #active {
+   background: #d00;
+}
+
+#sections li a {
+   background: #293499;
+   color: white;
+   border-color: white;
+}
+#section li {
+   background: url(../images/logo.png)  ;
+}
+
+
+#sections li a:hover {
+   background: #d00;
+}
+
+/*Text*/
+
+body {
+   font: 10pt Tahoma, Sans-Serif;
+}
+
+h1 {
+   font-size: 180%;
+   letter-spacing: 1px;
+}
+
+#user p {
+   margin: 10px;
+}
+
+#logo2 h1 {
+   margin: 15px;
+}
+
+#sections li {
+   display: block;
+   margin: 5px 0px;
+   padding: 2px 120px;
+   border-style: solid white;
+   border-width: 1px 0px;
+   list-style: none;
+}
+
+#sections h2 {
+   display: none;
+}
